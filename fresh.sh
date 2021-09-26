@@ -22,6 +22,10 @@ brew install wtf
 brew install lazygit
 brew install tree
 brew install grep
+brew install git
+
+git config --global user.name "Qihang Chen"
+git config --global user.email "qihangchen64@gmail.com"
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 echo "[Set up .zshrc] -> Start"
